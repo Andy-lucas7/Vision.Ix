@@ -1,25 +1,38 @@
 {
   "expo": {
-    "name": "_expo_init",
-    "slug": "_expo_init",
+    "name": "Human Reflex Benchmark",
+    "slug": "human-react-benchmark",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0C",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B0C"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "backgroundColor": "#0B0B0C",
+      "bundleIdentifier": "com.humanreact.benchmark"
     },
     "android": {
+      "package": "com.humanreact.benchmark",
+      "backgroundColor": "#0B0B0C",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#141416",
+        "foregroundImage": "./assets/icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df36ef9f-d2bb-4a4d-84b5-b3f4d1321974"
+      }
     }
   }
 }
